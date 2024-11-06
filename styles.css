@@ -1,0 +1,125 @@
+@charset "UTF-8";
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+	width: 100%;
+}
+
+ul.topnav li {float: left; 
+width: 25%;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #94da91;}
+
+ul.topnav li a.active {background-color: #cff2ce;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+h1 {
+	font-family: 'Quicksand', Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+p{
+	font-family: 'Playfair Display', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+img {display: block;
+margin-left: auto;
+margin-right: auto;
+}
+h2 {
+	font-family: 'Arima';
+		font-size: 17px
+}
+h3 {font-family: 'Arima';
+	font-size: 17px}
+h4 {font-family: 'Arima', Baskerville}
+a .center {
+  text-align: center;
+	border: 3px solid #CFF2CE;}
+a{font-family: 'Arima', Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"}
+a {color: #6140BA}
+h5{font-size: 25px
+}
+h6{font-family: 'Arima'}
+h7{font-family: 'Arima', Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+font-size: 25px
+}
+h8{font-family: 'Arima';
+font-size: 17px}
+h9{font-family: 'Arima';
+font-size: 17px}
+h10{font-family: "Arima";
+font-size: 17px}
+h11{font-family: 'Arima';
+font-size: 17px}
+h12{font-family: 'Arima';
+font-size: 17px}
+h15 img {
+  float: left;
+}
+h4 {font-family: 'Arima';
+font-size: 17px}
+h5 {font-family: 'Arima';
+font-size: 17px}
+h6 {font-family: 'Arima';
+font-size: 17px}
+h7 {font-family: "Arima";
+font-size: 21px}
+h8 {font-family: 'Arima';
+font-size: 17px}
+h9 {font-family: 'Arima';
+font-size: 17px}
+h10 {font-family: 'Arima';
+font-size: 17px}
+h11 {font-family: 'Arima';
+font-size: 25px}
+h12 {font-family: 'Arima';
+font-size: 25px}
+h13 {font-family: 'Arima';
+font-size: 25px}
+h14 {font-family: "Arima";
+font-size: 17px}
+h15 {font-family: 'Arima';
+font-size: 25px}
+h17 {font-family: 'Arima';
+font-size: 25px}
+h16 {font-family: 'Arima';
+font-size: 25px}
+h18 {font-family: "Arima";
+font-size: 17px}
+h19 {font-family: "Arima";
+font-size: 17px}
+h20 {font-family: 'Arima';
+font-size: 25px}
+h21 {font-family: "Arima";
+font-size: 17px}
+h22 {font-family: 'Arima';
+font-size: 25px}
+h23 {font-family: "Arima";
+font-size: 17px}
+H24 {font-family: "Arima";
+font-size: 17px}
+body {
+  background-color: #CFF2CE;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+}
